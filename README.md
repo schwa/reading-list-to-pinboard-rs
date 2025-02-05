@@ -37,7 +37,7 @@ reading-list-to-pinboard
 
 The command will read your Safari Reading List and then prompt you to upload it to Pinboard.in, Raindrop.io, and/or export it to a markdown file (current at `$HOME/Notes/Daily Notes/<date>.md`).
 
-This command *will not* delete your Safari Reading List items (Apple doesn't not expose a way to do this safely) so you will have to do that manually in the browser.
+This command *will not* delete your Safari Reading List items (Apple doesn't expose a way to do this safely) so you will have to do that manually in the browser.
 
 ## Limitations
 
