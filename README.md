@@ -20,12 +20,16 @@ cargo install --git http://github.com/schwa/reading-list-to-pinboard-rs
 
 ## Usage
 
-Make sure you either have `PINBOARD_TOKEN` or `RAINDROP_TOKEN` set in your environment. Alternatively you can have a `.env` file in your home directory with the following contents:
+Make sure you either have `PINBOARD_TOKEN` or `RAINDROP_TOKEN` set in your environment. You can get these from your settings page on the respective services. You will also need to create an app on Raindrop.io and use a "test token" with it, see <https://developer.raindrop.io/v1/authentication/token> for more information.
+
+Alternatively you can have a `.env` file in your home directory (TODO: untested, only tested with .env file in current working directory) with one or more tokens in it:
 
 ```env
 PINBOARD_TOKEN="<username>:<token>"
 RAINDROP_TOKEN="<token>"
 ```
+
+Then just run:
 
 ```sh
 reading-list-to-pinboard
