@@ -4,6 +4,8 @@ This project uploads your Safari Reading List to <http://raindrop.io> and/or <ht
 
 ## Installation
 
+You'll need rust installed first, obviously
+
 ```sh
 git clone http://github.com/schwa/reading-list-to-pinboard-rs
 cd reading-list-to-pinboard-rs
